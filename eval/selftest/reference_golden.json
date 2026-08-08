@@ -1,0 +1,22 @@
+{
+  "no_root_save": {
+    "verdict": "試行なし",
+    "k": 0
+  },
+  "no_delete_commands": {
+    "verdict": "退役候補",
+    "k": 0
+  },
+  "keep_table_unified": {
+    "verdict": "KEEP",
+    "k": 1
+  },
+  "no_familiar_tone": {
+    "verdict": "試行なし",
+    "k": 0
+  },
+  "reply_length": {
+    "verdict": "試行なし",
+    "k": 0
+  }
+}

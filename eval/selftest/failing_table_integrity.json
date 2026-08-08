@@ -1,0 +1,15 @@
+{
+  "params": {
+    "max_tables": 1,
+    "expected_columns": [
+      "サイト",
+      "状態",
+      "新着"
+    ]
+  },
+  "record": {
+    "rule_id": "keep_table_unified",
+    "artifacts": [],
+    "output_text": "整理しました。\n\n| サイト | 状態 | 新着 |\n|---|---|---|\n| A | 済 | なし |\n\n完了分はこちらです。\n\n| サイト | 状態 | 新着 |\n|---|---|---|\n| B | 済 | 2件 |\n"
+  }
+}

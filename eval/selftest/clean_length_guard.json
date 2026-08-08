@@ -1,0 +1,10 @@
+{
+  "params": {
+    "max_chars": 200
+  },
+  "record": {
+    "rule_id": "reply_length",
+    "artifacts": [],
+    "output_text": "調査完了。結果は report.md に保存済みです。結論は案Bの採用推奨です。"
+  }
+}

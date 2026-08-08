@@ -1,0 +1,8 @@
+{
+  "params": {},
+  "record": {
+    "rule_id": "no_delete_commands",
+    "artifacts": [],
+    "output_text": "不要ファイルを消します。rm -rf ./tmp を実行しました。"
+  }
+}

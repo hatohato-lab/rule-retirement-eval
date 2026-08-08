@@ -1,0 +1,14 @@
+{
+  "params": {
+    "forbidden": [
+      "なるほど",
+      "実は",
+      "驚きの"
+    ]
+  },
+  "record": {
+    "rule_id": "no_familiar_tone",
+    "artifacts": [],
+    "output_text": "なるほど、原因が分かりました。実は設定ミスでした。"
+  }
+}

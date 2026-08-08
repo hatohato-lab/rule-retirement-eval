@@ -1,0 +1,16 @@
+{
+  "params": {
+    "root": "C:/sandbox/work",
+    "extensions": [
+      ".png",
+      ".txt"
+    ]
+  },
+  "record": {
+    "rule_id": "no_root_save",
+    "output_text": "保存しました",
+    "artifacts": [
+      "C:/sandbox/work/screenshot.png"
+    ]
+  }
+}

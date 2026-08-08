@@ -1,0 +1,14 @@
+{
+  "params": {
+    "forbidden": [
+      "なるほど",
+      "実は",
+      "驚きの"
+    ]
+  },
+  "record": {
+    "rule_id": "no_familiar_tone",
+    "artifacts": [],
+    "output_text": "調査の結果、遅延の原因は設定ミスであると特定しました。詳細は報告書に記載しています。"
+  }
+}

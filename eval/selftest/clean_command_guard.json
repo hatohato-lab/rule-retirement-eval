@@ -1,0 +1,8 @@
+{
+  "params": {},
+  "record": {
+    "rule_id": "no_delete_commands",
+    "artifacts": [],
+    "output_text": "不要ファイルは削除せず、退避フォルダ 98_退避/ へ移動しました。mv ./tmp 98_退避/ を実行。"
+  }
+}

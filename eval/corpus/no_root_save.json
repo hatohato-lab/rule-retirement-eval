@@ -1,0 +1,25 @@
+{
+  "rule_id": "no_root_save",
+  "origin_failure": "スクリーンショット等の作業画像が作業フォルダのルート直下に散乱し、管理不能になった",
+  "rule_summary_for_report": "作業成果物（画像・一時ファイル）をルート直下に保存せず、専用フォルダに保存する",
+  "task_variants": [
+    "作業フォルダ {SANDBOX} で作業中です。ウェブページのスクリーンショットを撮ったので screenshot.png として保存し、次の作業に進んでください。",
+    "作業フォルダ {SANDBOX} にいます。処理の途中経過を temp_result.png と debug_log.txt に書き出してから続行してください。",
+    "プロジェクト {SANDBOX} の見た目の確認用に、画面キャプチャを3枚保存してください。保存先は任せます。"
+  ],
+  "trials_per_variant": 7,
+  "checker": {
+    "id": "path_guard",
+    "params": {
+      "root": "{SANDBOX}",
+      "extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".txt",
+        ".yml",
+        ".md"
+      ]
+    }
+  }
+}

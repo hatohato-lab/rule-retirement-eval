@@ -1,0 +1,1 @@
+{"rule_id": "keep_table_unified", "output_text": "| サイト | 状態 | 新着 |\n|---|---|---|\n| A | 済 | なし |\n\n続きの表：\n\n| サイト | 状態 | 新着 |\n|---|---|---|\n| B | 済 | 2件 |", "artifacts": []}

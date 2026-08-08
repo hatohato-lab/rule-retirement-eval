@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# 自分用メモ（GitHub に公開しない・手元の理解用）
+_notes/
+
+# 評価エージェントの実行結果（採点対象・公開しない）
+candidate_verdicts.json
