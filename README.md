@@ -3,6 +3,8 @@
 AIエージェントへの「ルール」が今のモデルにまだ必要かを、**実測でふるい分ける**行動回帰テスト ＋ 統計オラクル。
 Behavioral regression eval that measures whether your AI rules are still needed on current models — with a statistical oracle (Clopper–Pearson upper bounds).
 
+専門用語を使わない説明は [説明書.md](説明書.md) にあります。
+
 ## 背景
 
 ルールとは「過去の失敗への対策」です。しかしモデルは進歩します。
