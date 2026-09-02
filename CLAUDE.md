@@ -22,4 +22,4 @@
 - `eval/checkers/` … 差し替え可能な検出部品（path_guard／command_guard／table_integrity／lexicon_guard／length_guard）
 - `eval/corpus/` … ルール由来のテストケース（1ルール＝3変種×7試行以上）
 - `eval/selftest/` … 検証用見本（failing_*・clean_*・broken_trials・reference_trials・reference_golden.json）
-- `design/design.md` … 設計。`00_設計書/` … 設計の経緯（6レンズ査読と対応の記録）
+- `design/design.md` … 設計（設計の全経緯は非公開メモ。リポジトリには含まれない）

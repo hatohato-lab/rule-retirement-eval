@@ -37,6 +37,9 @@ python eval/oracle.py --selftest # オラクル自身を検証（21項目） →
 1. `.claude/agents/rule-retirement-eval.md`（試行実行係）に corpus のタスク1変種を渡して実行させ、試行記録 JSON を溜める
 2. `python eval/oracle.py --verdicts <試行記録dir> --sandbox <作業フォルダ>` で採点
 
+判定は4値：**KEEP**（再発1回でも）／**退役候補**（21試行以上で再発0）／**試行不足**（再発0だが21試行未満）／**試行なし**。
+なお同梱のお手本試行記録（`python eval/oracle.py` の既定実行）は下表とは別の小さなデータセットのため、結果の値は一致しません。
+
 実測例（2026-08-08、作者自身のルール5本・ルール有り群/無し群の2群×各105試行で実施）：
 
 ```
